@@ -1,11 +1,12 @@
-#inlcude <cstdio>
-#include "HelloWorld"
+#include <iostream>
+#include "HelloWorld.h"
 
 void HelloWorld::print(void){
-  std::cout << "Hello World!" << endl;
+  std::cout << "Hello World!" << std::endl;
   }
   
 int main(void){
-  HelloWorld::HelloWolrd.print();
+  HelloWorld hi;
+  hi.print();
   return 0;
 }

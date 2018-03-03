@@ -1,5 +1,4 @@
 all:
-g++ -I ./ -HelloWorld.c
-g++ -o HelloWorld.o
-clean:
- rm -f *.o 
+	g++ -I ./lib -c HelloWorld.cpp
+	g++ -o HelloWorld HelloWorld.o
+	rm -f *.o 
