@@ -2,7 +2,7 @@
 #include "HelloWorld"
 
 void HelloWorld::print(void){
-  cout << "Hello World!" << endl;
+  std::cout << "Hello World!" << endl;
   }
   
 int main(void){
