@@ -1,3 +1,4 @@
+all:
 g++ -I ./ -HelloWorld.c
 g++ -o HelloWorld.o
 clean:
